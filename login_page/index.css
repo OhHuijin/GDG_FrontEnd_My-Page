@@ -1,0 +1,50 @@
+body{
+    background-color: antiquewhite;
+}
+
+.buttons {
+    padding: 20px;
+    /* background-color: aqua; */
+}
+
+
+
+
+h1{
+    border: 4px;
+}
+
+body {
+    padding: 30px;
+    
+}
+
+input[type="text"], input[type="password"]{
+    width: 1035px;
+    height: 67px;
+    border-radius: 30px;
+    background-color: beige;
+    border-color: beige;
+    font-size: 20px;
+}
+
+input[type="button"]{
+    width: 100px;
+    height: 44px;
+    padding: auto;
+    border-radius: 30px;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    padding-left: 20px; /* 왼쪽 여백 추가 (들여쓰기 효과) */
+}
+
+
+.ID-container{
+    padding-bottom: 20px;
+}
+
+.password-container{
+    padding-bottom: 20px;
+}
