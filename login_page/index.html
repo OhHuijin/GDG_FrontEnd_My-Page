@@ -5,40 +5,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Home page</title>
+    <link rel="stylesheet" href="homepage.css" />
     <link rel="stylesheet" href="index.css" />
   </head>
 
   <body>
-    <h1>SIGN IN</h1>
-    <!-- <h2>Welcome !</h2> -->
 
-    <div class="login-container">
-    <div class="ID-container">
-    <!-- <label for="username">ID:</label> -->
-    <input type="text" id="username" placeholder="ID" />
+    
+
+    <div style="text-align: center;">
+        <img src="/images/gdg_on_smu_campus_logo.jpg" alt="GDG Logo">
     </div>
 
-    <div class="password-container">
-    <!-- <label for="password">password:</label> -->
-    <input type="password" id="password" placeholder="PASSWORD" />
-    </div>
-    </div>
-
-    <div class="password-reset">
-        <a href="password-reset.html">비밀번호를 잊으셨나요?</a>
+    <div class="Welcome message">
+    <h1>Welcome to </h1>
+    <h2 id="GDG">GDG: Seoultech 4th FrontEnd Community</h2> <h2></h2>
     </div>
 
+    
     
     <div class="buttons">
-        <input type="button" value="로그인"/>
+        <input type="button" value="새로운 멤버 되기" onclick="window.location.href='signUp.html'"/>
+        <input type="button" value="참여하러가기" onclick="window.location.href='login.html'"/>
     </div>
     
-
-    <div class="signUp">
-        <p>계정이 없으신가요? <a href="password-reset.html">SIGN UP</a></p>
-        
-    </div>
     
 
 </body>
